@@ -43,9 +43,15 @@ export default async function Home() {
           <Link href="#contact">
             <Button dark text="Get in Touch" />
           </Link>
-          <a href="/assets/resume.pdf" download>
+          <Link
+            href={"/assets/resume.pdf"}
+            target="_blank"
+            rel="noopener noreferrer"
+            locale={false}
+            download
+          >
             <Button text="Download CV" />
-          </a>
+          </Link>
         </div>
         <div className="hidden md:flex flex-col justify-center items-center mt-16">
           <h3 className="font-semibold tracking-wider text-secText ">
