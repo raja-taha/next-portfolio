@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "position": "MERN Stack Fellow",
+        "company": "Bytewise Limited",
+        "logo": "/assets/companies/bytewise.png",
+        "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
+        "startDate": "Jun 2024",
+        "endDate": "Present"
+    },
+    {
+        "id": 2,
+        "position": "Full Stack Intern",
+        "company": "Pakistan Post",
+        "logo": "/assets/companies/pakpost.png",
+        "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
+        "startDate": "Aug 2023",
+        "endDate": "Sep 2023"
+    }
+]

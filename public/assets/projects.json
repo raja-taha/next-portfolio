@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Promptopia",
+        "image": "/assets/projects/promptopia.png",
+        "url": "https://promptopia-taha.vercel.app/"
+    },
+    {
+        "id": 2,
+        "name": "Goal Setter App",
+        "image": "/assets/projects/goal-setter.jpeg",
+        "url": "https://goal-setter-app-mern.vercel.app/"
+    },
+    {
+        "id": 3,
+        "name": "Cart Management App",
+        "image": "/assets/projects/cart-app.png",
+        "url": "https://full-stack-cart-app.vercel.app/"
+    },
+    {
+        "id": 4,
+        "name": "Crypto Warrior",
+        "image": "/assets/projects/crypto-warrior.png",
+        "url": "https://www.crypto-warrior.vercel.app"
+    },
+    {
+        "id": 5,
+        "name": "Portfolio Website",
+        "image": "/assets/projects/yellow.png",
+        "url": "https://rajataha-yellow.vercel.app/"
+    }
+]
