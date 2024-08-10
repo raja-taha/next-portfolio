@@ -4,8 +4,8 @@ import React from "react";
 const ExperienceCard = ({ props }) => {
   return (
     <div className="w-full">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center justify-center space-x-5">
+      <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex  items-center justify-center space-x-5">
           <Image
             src={props.logo}
             width={45}
@@ -16,7 +16,7 @@ const ExperienceCard = ({ props }) => {
             {props.position} at {props.company}
           </h3>
         </div>
-        <p className="text-secText">
+        <p className="text-secText mt-2 md:mt-0">
           {props.startDate} - {props.endDate}
         </p>
       </div>

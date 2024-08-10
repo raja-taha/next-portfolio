@@ -47,7 +47,7 @@ export default async function Home() {
             <Button text="Download CV" />
           </a>
         </div>
-        <div className="flex flex-col justify-center items-center mt-16">
+        <div className="hidden md:flex flex-col justify-center items-center mt-16">
           <h3 className="font-semibold tracking-wider text-secText ">
             EXPERIENCE WITH
           </h3>

@@ -7,7 +7,7 @@ const Navbar = () => {
       <div>
         <Link href={"/"}>Raja Taha</Link>
       </div>
-      <nav className="space-x-20">
+      <nav className="space-x-20 hidden md:block">
         <Link href={"/"}>Home</Link>
         <Link href={"/#projects"}>Projects</Link>
         <Link href={"/#experience"}>Experience</Link>
