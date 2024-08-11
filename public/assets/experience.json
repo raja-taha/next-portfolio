@@ -4,7 +4,7 @@
         "position": "MERN Stack Fellow",
         "company": "Bytewise Limited",
         "logo": "/assets/companies/bytewise.png",
-        "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
+        "description": "As a MERN Fellow at Bytewise, Created a fully functional cart management system using the MERN stack, enabling users to add, update, and remove items, with real-time updates and seamless user experience. Built a social media application clone, implementing features such as user authentication, post creation and liking. Leveraged MongoDB for data storage and React for dynamic user interface components. Developed a goal-setting application that allows users to create, track, and manage personal goals.",
         "startDate": "Jun 2024",
         "endDate": "Present"
     },
@@ -13,7 +13,7 @@
         "position": "Full Stack Intern",
         "company": "Pakistan Post",
         "logo": "/assets/companies/pakpost.png",
-        "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
+        "description": "As a Full Stack Developer at Pakistan Post, Revamped Pakistan Post website using React, improving user experience. Optimized MySQL database, enhancing data management efficiency. Integrated Order Tracking System API, enabling real-time tracking on website.",
         "startDate": "Aug 2023",
         "endDate": "Sep 2023"
     }
