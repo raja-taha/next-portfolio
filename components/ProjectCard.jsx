@@ -4,7 +4,7 @@ import React from "react";
 
 const ProjectCard = ({ name, image, url }) => {
   return (
-    <div className="rounded-2xl md:w-1/4 mt-5">
+    <div className="rounded-2xl w-full md:w-1/4 mt-5 mx-10 md:m-0">
       <Image src={image} width={380} height={300} className="rounded-t-2xl" />
       <Link
         href={url}

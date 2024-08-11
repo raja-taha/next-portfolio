@@ -91,7 +91,7 @@ export default async function Home() {
         <div>
           <h2 className="text-3xl blue-gradient font-bold">EXPERIENCE</h2>
         </div>
-        <div className="w-2/3 flex flex-col gap-5 justify-center items-center mt-5">
+        <div className="w-full md:w-2/3 flex flex-col gap-5 justify-center items-center mt-5">
           {experience.map((experience) => (
             <ExperienceCard key={experience.id} props={experience} />
           ))}
