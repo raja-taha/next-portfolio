@@ -5,7 +5,6 @@ const pic = "/assets/taha.png";
 import { promises as fs } from "fs";
 import ExperienceCard from "@/components/ExperienceCard";
 import Link from "next/link";
-import Pdf from "/assets/resume.pdf";
 
 export default async function Home() {
   const projectsFile = await fs.readFile(
@@ -46,7 +45,12 @@ export default async function Home() {
           <Link href="#contact">
             <Button dark text="Get in Touch" />
           </Link>
-          <a href={Pdf} without rel="noopener noreferrer" target="_blank">
+          <a
+            href={"/assets/resume.pdf"}
+            without
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <Button text="Download CV" />
           </a>
         </div>
