@@ -5,6 +5,7 @@ const pic = "/assets/taha.png";
 import { promises as fs } from "fs";
 import ExperienceCard from "@/components/ExperienceCard";
 import Link from "next/link";
+import Pdf from "/assets/resume.pdf";
 
 export default async function Home() {
   const projectsFile = await fs.readFile(
@@ -12,12 +13,14 @@ export default async function Home() {
     "utf8"
   );
   const projects = JSON.parse(projectsFile);
+  const reversedProjects = projects.slice().reverse();
 
   const experienceFile = await fs.readFile(
     process.cwd() + "/public/assets/experience.json",
     "utf8"
   );
   const experience = JSON.parse(experienceFile);
+  const reversedExperience = experience.slice().reverse();
   return (
     <main className="bg-mainBg text-white">
       <section className="flex flex-col justify-center items-center">
@@ -34,7 +37,7 @@ export default async function Home() {
           </h1>
           <p className="text-secText">
             I am a seasoned full-stack software engineer with over 2 years of
-            professional experience, specializing in frontend development. My
+            professional experience, specializing in Backend Development. My
             expertise lies in crafting robust and scalable SaaS-based
             architectures on the Amazon AWS platform.
           </p>
@@ -43,15 +46,9 @@ export default async function Home() {
           <Link href="#contact">
             <Button dark text="Get in Touch" />
           </Link>
-          <Link
-            href={"/assets/resume.pdf"}
-            target="_blank"
-            rel="noopener noreferrer"
-            locale={false}
-            download
-          >
+          <a href={Pdf} without rel="noopener noreferrer" target="_blank">
             <Button text="Download CV" />
-          </Link>
+          </a>
         </div>
         <div className="hidden md:flex flex-col justify-center items-center mt-16">
           <h3 className="font-semibold tracking-wider text-secText ">
@@ -74,7 +71,7 @@ export default async function Home() {
           <h2 className="text-3xl orange-gradient font-bold">PROJECTS</h2>
         </div>
         <div className="w-full flex flex-wrap gap-5 justify-center items-center mt-5">
-          {projects.map((project) => (
+          {reversedProjects.map((project) => (
             <ProjectCard
               key={project.id}
               name={project.name}
@@ -92,7 +89,7 @@ export default async function Home() {
           <h2 className="text-3xl blue-gradient font-bold">EXPERIENCE</h2>
         </div>
         <div className="w-full md:w-2/3 flex flex-col gap-5 justify-center items-center mt-5">
-          {experience.map((experience) => (
+          {reversedExperience.map((experience) => (
             <ExperienceCard key={experience.id} props={experience} />
           ))}
         </div>

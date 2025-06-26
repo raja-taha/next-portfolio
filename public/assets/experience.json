@@ -1,20 +1,38 @@
 [
     {
         "id": 1,
-        "position": "MERN Stack Fellow",
-        "company": "Bytewise Limited",
-        "logo": "/assets/companies/bytewise.png",
-        "description": "As a MERN Fellow at Bytewise, Created a fully functional cart management system using the MERN stack, enabling users to add, update, and remove items, with real-time updates and seamless user experience. Built a social media application clone, implementing features such as user authentication, post creation and liking. Leveraged MongoDB for data storage and React for dynamic user interface components. Developed a goal-setting application that allows users to create, track, and manage personal goals.",
-        "startDate": "Jun 2024",
-        "endDate": "Present"
-    },
-    {
-        "id": 2,
         "position": "Full Stack Intern",
         "company": "Pakistan Post",
         "logo": "/assets/companies/pakpost.png",
         "description": "As a Full Stack Developer at Pakistan Post, Revamped Pakistan Post website using React, improving user experience. Optimized MySQL database, enhancing data management efficiency. Integrated Order Tracking System API, enabling real-time tracking on website.",
         "startDate": "Aug 2023",
         "endDate": "Sep 2023"
+    },
+    {
+        "id": 2,
+        "position": "MERN Stack Fellow",
+        "company": "Bytewise Limited",
+        "logo": "/assets/companies/bytewise.png",
+        "description": "As a MERN Fellow at Bytewise, Created a fully functional cart management system using the MERN stack, enabling users to add, update, and remove items, with real-time updates and seamless user experience. Built a social media application clone, implementing features such as user authentication, post creation and liking. Leveraged MongoDB for data storage and React for dynamic user interface components. Developed a goal-setting application that allows users to create, track, and manage personal goals.",
+        "startDate": "Jun 2024",
+        "endDate": "Sep 2024"
+    },
+    {
+        "id": 3,
+        "position": "Full Stack Developer (MERN + NEXT.JS)",
+        "company": "CortechSols Pvt Ltd",
+        "logo": "/assets/companies/cortechsols.jpeg",
+        "description": "As a Full Stack Developer at CortechSols Pvt Ltd, contributed to the design and development of scalable web applications using the MERN stack and Next.js. Implemented robust RESTful APIs, optimized server-side rendering for improved performance, and collaborated with cross-functional teams to deliver seamless user experiences. Enhanced application security and maintained code quality through best practices and code reviews.",
+        "startDate": "Jan 2025",
+        "endDate": "Jun 2025"
+    },
+    {
+        "id": 4,
+        "position": "AI Engineer (Intern)",
+        "company": "CareCloud MTBC",
+        "logo": "/assets/companies/carecloud.png",
+        "description": "As an AI Engineer Intern at CareCloud MTBC, assisted in developing and deploying machine learning models to solve real-world healthcare challenges. Worked on data preprocessing, model training, and evaluation using Python and popular ML frameworks. Collaborated with senior engineers to integrate AI solutions into existing platforms, contributing to automation and data-driven decision-making within the organization.",
+        "startDate": "Jun 2025",
+        "endDate": "Present"
     }
 ]
