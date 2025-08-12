@@ -46,7 +46,7 @@ export default async function Home() {
             <Button dark text="Get in Touch" />
           </Link>
           <a
-            href={"/assets/resume.pdf"}
+            href={"/assets/Full Stack ML Engineer -  Muhammad Taha.pdf"}
             without
             rel="noopener noreferrer"
             target="_blank"
